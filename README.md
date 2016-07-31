@@ -1,6 +1,5 @@
 
 # nRF51822-Arduino
-===
 
 This branch is to provide BLE concurrent Central and Peripheral using Nordic SoftDevice S130 and also provides support for the Arduino IDE to compile nRF51822 firmware. This aims to provide fast prototyping and learning the IoT development using the Bluetooth Low Engergy (BLE) technology.
 
@@ -10,7 +9,6 @@ This board package add-on also provides BLE API for the nRF51822 SoC to act as B
 
 
 # Features
-===
 
 * Adds support for the Arduino IDE enables compiling firmwares for the RBL_nRF51822 and BLE Nano development boards.
 * Upload the OTA bootloader using OpenOCD tool via the CMSIS-DAP debug interface.
@@ -19,7 +17,6 @@ This board package add-on also provides BLE API for the nRF51822 SoC to act as B
 
 
 # Requirements
-===
 
 1. nRF51822 deveopment board, here we will use the RBL nRF51822 as an example.
 
@@ -32,13 +29,12 @@ This board package add-on also provides BLE API for the nRF51822 SoC to act as B
 
 3. Arduino IDE version 1.6.9 (current tested version).
 
-4. Board support package add-on 1.0.6 (current tested version).
+4. Board support package add-on 1.0.7 (current tested version).
 
 	* Note 1: If you have changed the USB interface firmware (MK20 chip) for some reasons, follow the instructions inside the **[interface/mk20](interface/mk20)** folder to restore it in order to use this add-on for Arduino IDE.
 
 
 # Getting Started
-===
 
 ## Install Board Package Add-on
 
@@ -133,7 +129,6 @@ Note that the bootloader has OTA feature and you can follow the OTA session for 
 
 
 # OTA
-===
 
 The bootloader allows you to load firmware Over-the-air, for example, if you do not have the MK20 USB interface dongle.
 
@@ -149,7 +144,6 @@ You can send this firmware to your phone, e.g. iPhone, using Air-Drop and use No
 
 
 # Limitations
-===
 
 1. Serial Interface
 
@@ -161,7 +155,6 @@ You can send this firmware to your phone, e.g. iPhone, using Air-Drop and use No
 
 
 # License
-===
 
 Copyright (c) 2013-2016 RedBearLab
 
